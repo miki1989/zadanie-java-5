@@ -11,4 +11,10 @@ public class Circle {
         double area = Math.PI * radius * radius;
         return  area;
     }
+
+    double circlePerimeter()
+    {
+        double perimeter = 2 * (Math.PI * radius);
+        return perimeter;
+    }
 }

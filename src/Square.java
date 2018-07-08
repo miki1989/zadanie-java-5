@@ -11,4 +11,10 @@ public class Square {
         double area = side * side;
         return area;
     }
+
+    double squarePerimeter()
+    {
+        double perimeter = 4 * side;
+        return perimeter;
+    }
 }

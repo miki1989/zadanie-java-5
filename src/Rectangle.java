@@ -8,9 +8,15 @@ public class Rectangle {
         length = l;
     }
 
-   double rectPerimeter ()
+   double rectPerimeter()
    {
         double perimeter = 2 * (width + length);
         return perimeter;
+   }
+
+   double rectArea()
+   {
+       double area = width * length;
+       return area;
    }
 }
